@@ -2,10 +2,7 @@ from django.shortcuts import render
 from django.http import HttpResponse
 from datetime import datetime
 from home.models import Contact
-from django.contrib import messages
-
-# Create your views here.
-
+from django.contrib import messages.
 
 def homepage(request):
     if request.method == "POST":
